@@ -1,0 +1,3 @@
+domain: example.com
+repo: github.com/domdom82/k8s-crd
+version: "2"
