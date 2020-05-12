@@ -1,0 +1,8 @@
+apiVersion: stable.example.com/v1
+kind: Color
+metadata:
+  name: color-sample
+spec:
+  # Add fields here
+  foo: bar
+  color: red

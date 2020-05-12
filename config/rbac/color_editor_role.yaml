@@ -1,0 +1,24 @@
+# permissions for end users to edit colors.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: color-editor-role
+rules:
+- apiGroups:
+  - stable.example.com
+  resources:
+  - colors
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - stable.example.com
+  resources:
+  - colors/status
+  verbs:
+  - get

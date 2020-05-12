@@ -1,3 +1,7 @@
 domain: example.com
 repo: github.com/domdom82/k8s-crd
+resources:
+- group: stable
+  kind: Color
+  version: v1
 version: "2"
